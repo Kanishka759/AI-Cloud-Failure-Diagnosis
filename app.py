@@ -24,7 +24,7 @@ st.caption("Intelligent cloud log monitoring and failure analysis")
 # ----------------------------------
 
 BASE = Path(__file__).parent
-ARTIFACTS = BASE / "artifacts"
+ARTIFACTS = BASE
 
 @st.cache_resource
 def load_models():
